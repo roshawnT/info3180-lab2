@@ -38,8 +38,11 @@ h2{
     color: white;
 }
 h3{
-    color: white;
+    color:rgb(190,190,190);
     font-size: 13px;
+}
+p{
+    color:rgb(190,190,190);
 }
 
 #follow
@@ -58,6 +61,15 @@ span.a {
   width: 100px;
   height: 100px;
   padding: 5px;
+  color:rgb(190,190,190);
+
+}
+span.b {
+  display: inline; 
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+
 
 }
 
