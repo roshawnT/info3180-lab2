@@ -8,7 +8,7 @@ body {
     border:solid;
     border-color: white;
     width: 40%;
-    height:700px;
+    height:650px;
     box-shadow: 0 0 0px 1px rgb(234,234,234);
     
 }
@@ -46,9 +46,12 @@ h3{
 {
     display: inline-block;
     text-align:center;
-    padding-top: 30px;
+    padding:50px;
+   
 }
-
+#but{
+    padding:30px;
+}
 
 span.a {
   display: inline; 
@@ -56,4 +59,17 @@ span.a {
   height: 100px;
   padding: 5px;
 
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
 }
