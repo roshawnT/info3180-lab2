@@ -47,7 +47,7 @@ p{
 
 #follow
 {
-    display: inline-block;
+    
     text-align:center;
     padding-top:10px;
    
@@ -56,15 +56,16 @@ p{
     padding:30px;
 }
 
-span.a {
+.a {
   display: inline; 
   width: 100px;
   height: 100px;
+
   padding: 5px;
   color:rgb(190,190,190);
 
 }
-span.b {
+.b {
   display: inline; 
   width: 100px;
   height: 100px;
