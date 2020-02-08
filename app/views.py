@@ -56,16 +56,16 @@ def page_not_found(error):
 
 @app.route('/profile')
 def profile():
-    return render_template('profile.html', now = format_date_joined("December 07, 2020") ) 
+    return render_template('profile.html', now = format_date_joined("February 07, 2020") ) 
 
 
-
+#to get the current date and format it 
 def format_date_joined1():
     now = datetime.datetime.now()
     return ("Joined " + now.strftime("%B, %Y"))
     
     
-    
+# format a given date
 def format_date_joined(indate): #input format "May 07, 2020"
     date1 = indate.split(" ")
     return("Joined " + date1[0]+", "+date1[2])
