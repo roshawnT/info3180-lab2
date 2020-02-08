@@ -15,7 +15,7 @@ body {
 
 #profile-top{
     background-color: green;
-    height:40%;
+    height:45%;
     z-index: 1;
     padding-top:5%;
     text-align: center;
@@ -24,7 +24,7 @@ body {
 
 #profile-bottom{
     background-color: white;
-     height:50%;
+     height:45%;
      padding: 30px;
       
 }
